@@ -8,28 +8,32 @@ The following detials about such API processes gives individual functional aspec
                                                  Feature engineering process executions etc...)
 4. Performing Backpropagation post analysis of Confusion Matrix matrics.
 
-
 Data Loader to Data frame from RDBMS/CSV Files:
 ==============================================
             Any website ingeneral runs on information from distinct news channels about the business of Organization and Stocks performance
-of any Organization significantly relies on regular news about Ticker and the results of the Organization.
-*************. API to load Dataload from either SQL Database Object or CSV file to NDArray or Dataframe .********************#
-*************. Class API built in python to load data .************************#
-*************. Methods/Functions built to load data from either of the DB Objects or CSV file with a structured data format .************************#
-*************. The structure of the Data set is always fixed and could be an prior definition of column specific format to be loaded into target dataframe .************************#
+of any Organization significantly relies on regular news about Ticker and the results of the Organization. The performance of an Organization depends on positive results over past quarter and present decisions of the company to tackle key metrics to raise profits. There had been adhoc factors drives it adversely, irrespective of earlier mentioned profit based metrics. The information and numeric data about stock tickers from such websites to be scrapped and loaded into the database or CSV file system. The Data must be processed through transformational channels to be loaded into one of these targets, Existing advanced Machine Learning and Artificial Intelligence techniques 
+utilize various simulations to optimize prediction results in making an affluent decisions. 
+
+The Dataload process for CSV file uses a known python library module to perform the data load. Numpy is a python module with many classes to be useful in building API's for creating and building integration tasks related to Cloud SAAS applciations. Relational Database objects as Tables, Views are major sources to integrate with Dataframes of Programming languages to store and transform data. The Integration connection defined through the same API designed to build for using CSV files in the section.
+
+The following Information is vital while generating an algorithm in Python to support the API Functionality to be used in the Dataload process. These attributes of the source stock ticker dataset explains about the regular usage of stock volume information to perform intraday trading with Intelectual ability assigned in the form of Prediction algorithms through Machine Learning models.
+
+*************. API to load Dataload from either SQL Database Object or CSV file to Dataframe .********************#
 *************. Header Format of the File/Table/View is .************************#
-*************. Fields/Attributes InformationDate.
+*************. Fields/Attributes of the Artifacts.
                 1. Date of Intraday Trading
                 2. Open
                 3. Close
                 4. High
                 5. Low
                 6. Adj. Close
-                7. Volume 
-*************.
-**************. All fields except Volume and Date represents price of the ticker on the given intraday at certain point of the day. The volume represents about the number of tickers exchanged among stock holders. .*********************
+                7. Volume
+                                                       .*************************#
+**************. All fields except Volume and Date represents price of the ticker on the given intraday at certain point of the day. The
+                volume represents about the number of tickers exchanged among stock holders. .*********************
 **************. Integration Details for Databases .*********
-**************. Driver connection to improve exposure to load drivers for installation and configuration process. URL For Connecting through Drivers Install mssql-python package.
+**************. Driver connection to improve exposure to load drivers for installation and configuration process. URL For Connecting
+                through Drivers Install mssql-python package.
 
                 pip install mssql-python;
 
@@ -38,4 +42,3 @@ of any Organization significantly relies on regular news about Ticker and the re
                 Setup environment variables for configuring SQL server Drivers in the SQL Server.
 
 If the connection String is not enabled to load data into the system setup using the following instructions from mssql_python connect library.
-
