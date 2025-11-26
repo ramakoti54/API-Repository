@@ -1,0 +1,32 @@
+      API Documentation described in this section demonstrates the main purpose of API Repository for distinct API protocols designed to perform tasks related to Data Loading, Machine Learning Simulation Automation capabilities for running same model with multiple optimization proceses and Automation functionalities of Ticker predictions.
+The following detials about such API processes gives individual functional aspects. Loading data from CSV files or Databases to Data frames and flat files would         
+          
+
+
+
+*************. API to load Dataload from either SQL Database Object or CSV file to NDArray or Dataframe .********************#
+*************. Class API built in python to load data .************************#
+*************. Methods/Functions built to load data from either of the DB Objects or CSV file with a structured data format .************************#
+*************. The structure of the Data set is always fixed and could be an prior definition of column specific format to be loaded into target dataframe .************************#
+*************. Header Format of the File/Table/View is .************************#
+*************. Fields/Attributes InformationDate.
+                1. Date of Intraday Trading
+                2. Open
+                3. Close
+                4. High
+                5. Low
+                6. Adj. Close
+                7. Volume 
+*************.
+**************. All fields except Volume and Date represents price of the ticker on the given intraday at certain point of the day. The volume represents about the number of tickers exchanged among stock holders. .*********************
+**************. Integration Details for Databases .*********
+**************. Driver connection to improve exposure to load drivers for installation and configuration process. URL For Connecting through Drivers Install mssql-python package.
+
+                pip install mssql-python;
+
+                pip install python-dotenv;
+
+                Setup environment variables for configuring SQL server Drivers in the SQL Server.
+
+If the connection String is not enabled to load data into the system setup using the following instructions from mssql_python connect library.
+
