@@ -2,12 +2,17 @@
 The following detials about such API processes gives individual functional aspects. Loading data from CSV files or Databases to Data frames would help in transforming stock ticker file information to column format aides the developers to process the stock ticker related numericals through an analytical and statistical processer for performing distributions. Since, these distributions select from Advanced concepts of Statistical Analysis based algorithms or Optimization techniques of Machine Learning and Deep Learning concepts suffice to enahance the importance of Integrations to automate freequent processes for certain tasks to be repeated in the production deployable environments. The key idea of the API Repository illustrated through an example in this section majorly concentrate on downloading data from a Financial website to acquire required flat file with Stock ticker data and using the file to load into CSV files or RDBMS(SQL Server/Oracle DB is inclusive).
 
       There had been three major tasks associated to demonstrate the capabilities of API Integration facilities for Machine Learning and Ticker functionalities for the website include 
-1. Data Loader to Data Frame from RDBMS/CSV files.
-2. 
-          
+1. Data Loader to Data Frame from RDBMS/CSV files. 
+2. Automation of Machine Learning and Data Science Model preparation from the Raw Data sources.
+3. Machine Learning Simulation Automation tasks (includes Diverging Training, Testing inferences on datasets, Optimizaiton builders, 
+                                                 Feature engineering process executions etc...)
+4. Performing Backpropagation post analysis of Confusion Matrix matrics.
 
 
-
+Data Loader to Data frame from RDBMS/CSV Files:
+==============================================
+            Any website ingeneral runs on information from distinct news channels about the business of Organization and Stocks performance
+of any Organization significantly relies on regular news about Ticker and the results of the Organization.
 *************. API to load Dataload from either SQL Database Object or CSV file to NDArray or Dataframe .********************#
 *************. Class API built in python to load data .************************#
 *************. Methods/Functions built to load data from either of the DB Objects or CSV file with a structured data format .************************#
